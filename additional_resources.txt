@@ -1,0 +1,11 @@
+python train.py
+python train.py -h
+python train.py 'flowers'
+python train.py 'flowers' --gpu
+python train.py 'flowers' --gpu --save_dir 'checkouts' --arch 'vgg19' --learning_rate 0.01 --hidden_units 512 --epochs 1
+
+
+python predict.py
+python predict.py -h
+python predict.py 'flowers/test/10/image_07090.jpg' 'model_20190103_191907.pth'
+python predict.py 'flowers/test/71/image_04555.jpg' 'model_20190103_191907.pth' --gpu --top_k 10 --category_names 'cat_to_name.json'
