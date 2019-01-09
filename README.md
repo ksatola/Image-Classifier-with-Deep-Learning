@@ -30,7 +30,7 @@ This project uses the following software and Python libraries:
 - argparse
 
 ## Results
-A Python application that can be trained with PyTorch (using tranfer learning technique on pre-train neural network) on any set of labeled images.
+A Python application that can be trained with PyTorch (using tranfer learning technique on a pre-train neural network) on any set of labeled images.
 The project is broken down into multiple steps:
 - Load and preprocess the image dataset,
 - Train the image classifier on your dataset,
