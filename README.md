@@ -6,7 +6,7 @@ In this project, I will train an image classifier to recognize different species
 This project was completed as part of Udacity's [Data Scientist Nanodegree](https://eu.udacity.com/course/data-scientist-nanodegree--nd025) certification.
 
 ## Objectives
-1. Implement an image classifier with PyTorch (build and train a neural network on the flower data set).
+1. Implement an image classifier with PyTorch (build and train a neural network on the flower dataset).
 2. Convert the classifier into an application that others can use. The application should be a pair of Python scripts that run from the command line. The first file, `train.py`, will train a new network on a dataset and save the model as a checkpoint. The second file, `predict.py`, uses a trained network to predict the class for an input image. 
 
 ## Data Origin
@@ -30,7 +30,7 @@ This project uses the following software and Python libraries:
 - argparse
 
 ## Results
-A Python application that can be trained with PyTorch on any set of labeled images.
+A Python application that can be trained with PyTorch (using tranfer learning technique on pre-train neural network) on any set of labeled images.
 The project is broken down into multiple steps:
 - Load and preprocess the image dataset,
 - Train the image classifier on your dataset,
